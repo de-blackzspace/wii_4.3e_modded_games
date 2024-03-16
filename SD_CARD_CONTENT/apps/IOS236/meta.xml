@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.0">
+	<name>IOS236 Installer / Uninstaller</name>
+	<version>3.2</version>
+        <release_date>20100920192800</release_date>
+	<coder>Dr. Clipper, PabloACZ</coder>
+	<short_description>Installs / Uninstalls IOS236</short_description>
+	<long_description>This application installs a patched IOS36 into the slot 236.
+It relies on the fact that you launched this app with the AHBPROT flags set, so you must be using HBC 1.0.7 or later (the meta.xml file is VERY important!).
+IOS236 is just a patched IOS36 v3351. This app can be used instead of the Trucha Bug Restorer, upon which the app was based.
+This application should work on all Wii firmwares 4.3 and below, and as long as the HBC supports AHBPROT, it should work on newer firmwares too. It is safe to use this application to reinstall IOS236 or replace a different IOS236.
+Thanks, in no particular order, go to WiiPower, Team Twiizers, tona, Joseph Jordan and anybody else who has code included in the app. This was quite a simple job, built upon their actual real work.
+Version history:
+
+v3.2 (by PabloACZ):
+- Deleted unnecessary code from the Makefile (some libraries, like libmodplay and libmad. Seriously, the app is not
+  going to play music, :P), and changed the loaded program to wiiload.
+- Compiled with differents rvl.ld and iospatch.c/h (now named RuntimeIOSPatch.c/h) files (both from R2-D2199's Trucha Bug
+  Restorer AHBPROT MOD), and corrected some minor things on main.c (to try to prevent code dumps).
+
+v3.1 (by PabloACZ):
+- Deleted the jokes about piracy stuff, including the "steps" and the A/B/X/Y button prompt.
+- Added more detailed output.
+- Added an uninstallation and exit options at startup.
+
+v3:
+- Another change to avoid DSI errors.
+- Changed buttons needed at Step 2.
+
+v2:
+- A few changes to avoid DSI errors.
+- Changed version number of installed IOS236 to 65535.
+
+v1:
+- Initial release.</long_description>
+	<no_ios_reload/>
+</app>

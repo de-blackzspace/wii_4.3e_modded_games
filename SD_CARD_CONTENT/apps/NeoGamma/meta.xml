@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.0">
+	<name>NeoGamma</name>
+	<version>R9 beta 44</version>
+        <release_date>200905092145</release_date>
+	<coder>WiiPower</coder>
+	<short_description>Play Wii Games</short_description>
+	<long_description>This is an unofficial modification based on WiiGator's Gamma release. For more information visit the forums at http://gbatemp.net. An installed cIOS is required for this application to be functional! USE AT YOUR OWN RISK! Graphics by: Empyr69er</long_description>
+</app>

@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+How to "install" NeoGamma to sd card for use in the Homebrew Channel:
+-------------------------------------------------------------------------------
+- Copy the "apps" folder to the root of your sd card, so you have an "apps" folder on sd card,
+which includes a "NeoGamma" folder, which includes the boot.dol(the program), the icon.png(optional,
+the icon that is displayed in HBC) and the meta.xml(optional, contains the info discplayed in HBC)
+
+The rest is optional, but recommended as it will help with some games(New Super Mario Bros, Sam & Max and some more):
+
+- Create a "NeoGamma" folder on root of the sd card if there's none
+- Copy the gameconfig.txt, the .wip and .wdm files to the "NeoGamma" folder(NOT the one under apps!)
+[gameconfig.txt is for Brawl+, .wip files are patches, .wdm files are for alt .dol disc+]
+- the "sourcecode" folder is not required at all for end users
+
+Done
+
+
+-------------------------------------------------------------------------------
+How to install NeoGamma to the wii menu:
+-------------------------------------------------------------------------------
+Get a channel at GBAtemp.net, there's no official channel yet, there are some channels in this thread:
+http://gbatemp.net/index.php?showtopic=215712
+I take no responsibility for any channel! Before installing a channel, make sure you have some brick protection
+AND the channel is confirmed to work by other users.
+
+A channel version will still require a sd card for some games, see above
+

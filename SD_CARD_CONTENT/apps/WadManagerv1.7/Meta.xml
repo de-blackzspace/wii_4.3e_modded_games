@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<app version="1">
+		<name>WAD Manager</name>
+		<coder>Waninkoko</coder>
+		<version>1.7</version>
+		<release_date>0405200090000</release_date>
+		<short_description>Administrador de WADs</short_description>
+		<long_description>Waninkoko nos sorprende con otra de sus grandes creaciones, WAD manager, es como si tuvieramos el WAD Installer y el WAD Uninstaller en una misma aplicacion, ya que este nos permitira elegir que WAD desinstalar o instalar, de los que tengamos en la tarjeta SD. Anadido soporte para USB
+
+</long_description>
+	</app>

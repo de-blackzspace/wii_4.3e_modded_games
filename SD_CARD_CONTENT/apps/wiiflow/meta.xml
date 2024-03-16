@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<app version="2.1">
+		<name> WiiFlow</name>
+		<coder>Hibernatus</coder>
+		<version>2.1</version>
+		<release_date>07.07.2010</release_date>
+		<short_description>USB Loader (IOS249)</short_description>
+		<long_description>WiiFlow est un GUI pour USB Loader qui peut être installé sur un disque dur ou une carte SD. Si vous avez une partition FAT sur votre disque dur, WiiFlow l'utilisera toujours à la place de votre carte SD. Lisez le readme pour savoir comment donner la priorité à la carte SD.
+
+Contrôles :
+- Page principale (Coverflow) :
+-- Haut / Bas ......... Précédent / Prochain jeu (vertical)
+-- Gauche / Droite .... Précédent / Prochain jeu (horizontal)
+-- Moins / Plus ....... Précédente / Prochaine page
+-- B+Moins / B+Plus ... Recherche alphabétique
+-- A .................. Sélectionner le jeu
+-- A+B ................ Lancement rapide du jeu
+-- B+Haut ............. Changer de partition
+-- B+Bas .............. Changer le mode de tri
+-- B+Home ............. Rechargement/Actualisation des données
+-- Home ............... Quitter
+-- 1 / 2 .............. Précédent / Prochain mode d'affichage
+
+- Page jeu :
+-- A sur la boîte ..... Voir la face arrière
+-- A hors de l'écraN .. Lancer le jeu
+-- B ..................	Retour au coverflow
+-- Moins / Plus ....... Précédent / Prochain jeu (vertical)
+-- Gauche / Droite .... Précédent / Prochain jeu (horizontal)
+
+- Menu des paramètres :
+-- Moins / Plus ....... Précédente / Prochaine page
+
+
+- Menu d'ajustement des modes d'affichages :
+-- B+Moins / B+Plus ... Précédente / Prochaine page
+-- B .................. Ajustement rapide (B+A au lieu d'un simple clic d'un bouton)
+-- B+1 ................ Copier l'ensemble des paramètres de ce mode d'affichage
+-- B+2 ................ Coller l'ensemble des paramètres du mode d'affichage copier
+</long_description>
+	</app>

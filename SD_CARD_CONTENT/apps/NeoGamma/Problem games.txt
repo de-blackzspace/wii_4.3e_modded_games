@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------------------------
+Wii Sports Resort and Red Steel 2:
+--------------------------------------------------------------------------------------------------
+In order to be able to play the game as backup, you need to have watched the Wii Motion Plus video(s) once. In order to do that, select alternative .dol loading from disc in NeoGamma, start the game, select "player.dol", watch the video, and then turn alternative .dol loading off again. That's it.
+
+It's possible that this game still does not work and freezes with a green screen. If you get this, try using disc video mode first. If that works(but is back and white bla bla bla...), go find a solution for that problem. If the problem remains with disc video mode, you probably are using a (crappy) main.dol patch to fix the 002 error. If you modified the disc for this, you produced the problem yourself. If not, you are most likely using one of the unusable cIOS revisions(due to the integrated 002 main.dol fix). cIOS revision 7, 13a, 14, 17 and 19+ are the good ones.
+
+
+--------------------------------------------------------------------------------------------------
+New Super Mario Bros:
+--------------------------------------------------------------------------------------------------
+If the game freezes directly before getting any screen from the game, the 1st thing you see is a disc read error or if you get disc read errors randomly during the gameplay, then you need to get rid of its protection(BCA). If it's a green sreen freeze, try disc video mode first, see Wii Sports Resort. If you get 001 or 002 error, that's something else, fix that first then(not explained here).
+
+How to "fix" the BCA protection for New Super Mario Bros in NeoGamma: (there are other ways too...) Enable looking for patches in NeoGamma, put the .wip files on sd card inside the NeoGamma folder(not the one under "apps"!) and start the game. The game may only work with the sane cIOS revisions, see Wii Sports Resort.
+
+
+--------------------------------------------------------------------------------------------------
+Monster Hunter Tri:
+--------------------------------------------------------------------------------------------------
+You need a cIOS based on IOS37 like cIOS37 rev19 or higher.
+
+
+--------------------------------------------------------------------------------------------------
+Prince of Persia: The Forgotten Sands:
+--------------------------------------------------------------------------------------------------
+The game has at least 2 new protections:
+- It checks if the main.dol was modified, ANY patch to the main.dol except the one to get it to work will cause the game to crash
+- It checks for certain modules in the (c)IOS that only Waninkoko's and Hermes cIOS have, Waninkoko's cIOS rev 9 and earlier don't have any of the questionable modules.
+
+To get the game to work, use the included .wip patch and enable looking for patches(see New Super Mario Bros). And disable EVERYTHING else that patches the .dol, this includes Ocarina/Wiird(delete the config file on sd card if you don't know which are clean settings)
+
+To verfiy if the game really works fully:
+- Check if the home menu is working by pressing the home button
+- Open a chest

@@ -1,0 +1,21 @@
+The NeoGamma gamecube modes allow to change NeoGamma's behaviour when booting gamecube discs. All these settings are only relevant if there's a GC disc in the drive and it is "launched"
+
+Recommend MIOS(WiiGator's cMIOS):
+http://www.mediafire.com/?mn2jzmqg0ny
+
+Once Waninkoko released rev6 of his cMIOS, NeoGamma will be able to use both GC loaders(its own and Waninkokos') without the need to install a new cMIOS. (it will obviously require to have Waninkoko's cMIOS rev6 installed) With GC mode MIOS it will load with Waninkoko's loader, with internal GC mode it will use its own loader. This way it will be possible to switch quickly between both to get the best from both.
+
+
+The modes:
+
+MIOS:
+Just boot the MIOS, boots the GC disc the same way as Gecko OS and the old Gamma do
+
+external*:
+Makes the MIOS boot the _homebrew_ GC .dol located in the NeoGamma folder on sd card(sd:/NeoGamma/GC.dol). This is can be used for example to use WiiGator's 0.2 GC backup launcher instead of the modified version NeoGamma uses
+
+internal*:
+Launches the included GC backup launcher, which is a modification of WiiGator's 0.2 GC backup launcher. Currently this doesn't support booting with a patched MIOS, but has some improvements regarding the reloader. For multi game discs, the selection which game to boot is moved to wii mode. Select 2nd disc with 1/Z, if no 2nd disc is selected it is auto detected. To switch the disc in-game, just eject and reinsert the disc.
+
+
+*external and internal GC mode require a compatible cMIOS. WiiGator's cMIOS are compatible, Waninkoko's cMIOS rev 6+ will most likely also be compatible

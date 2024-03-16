@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<app version="1">
+		<name>cIOSX rev20b Installer</name>
+		<coder>Waninkoko</coder>
+		<version>rev20b</version>
+		<release_date>20100731</release_date>
+		<short_description>Instalador de cIOS</short_description>
+		<long_description>Ésto es un Custom IOS, un IOS modificado para añadir nuevas caracteristicas no disponibles en el IOS oficial. Este IOS ha sido creado para ser usado ÚNICAMENTE con software casero. El Custom IOS se instala en un slot libre y no modifica ningún otro IOS por lo que es seguro de instalar.
+
+[ REQUISITOS ]:
+
+-El fichero WAD de la versión de IOS que se utilizara como base (para la instalacion por WAD).
+-Conexion a internet (para la instalación por red).
+
+[ COMO INSTALARLO ]:
+
+-Instalación por WAD: copia el fichero WAD del IOS a utilizar como base en el directorio raíz de un dispositivo de almacenamiento (tarjeta SD o dispositivo USB). Inserta el dispositivo de almacenamiento en la Wii. Ejecuta el instalador y elige la versión de IOS a utilizar como base (por defecto viene la recomendada). Elige la opcion "WAD Installation". Escoge el dispositivo de almacenamiento donde has copiado el fichero WAD.
+
+-Instalación por red: ejecuta el instalador. Elige la version de IOS a utilizar como base (por defecto viene la recomendada) y escoge la opción "Network Installation".
+
+[ KUDOS ]:
+
+-Team Twiizers y devkitPRO devs por su gran trabajo en libogc.
+-Todos los betatesters.
+-WiiGator, por su trabajo en el DIP plugin.
+-kwiirk, por su módulo EHCI.
+-Hermes, por sus mejoras en el módulo EHCI.
+-sorg, por el parche para la comprobacion de presencia de disco.
+-Shizzza, por la imagen de fondo.
+-nitrotux, por su IOS5.
+-neimod, por el Custom IOS module.</long_description>
+	</app>

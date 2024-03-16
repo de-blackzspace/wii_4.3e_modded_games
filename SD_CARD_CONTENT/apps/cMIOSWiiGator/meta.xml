@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.0">
+	<name>Installer for WiiGator's cMIOS</name>
+	<version>v0.1</version>
+        <release_date>200001012000</release_date>
+	<coder>WiiPower</coder>
+	<short_description>see readme for details</short_description>
+	<long_description></long_description>
+</app>

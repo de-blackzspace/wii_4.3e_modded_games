@@ -1,0 +1,40 @@
+; mmmconfig.txt resides in root of SD card and is optional.
+;
+; There will be no prompts if you don't have this file.
+;
+; No spaces are allowed on a line.  Blank lines are ignored.
+;
+; To define any of the settings, remove the " ; " from the beginning of their respective line
+
+
+
+; StartupPath=/.../...     Path that WAD Manager will startup from
+; (Default is "/wad" if there is no StartupPath setting)
+;
+; Examples of StartupPath:
+;
+;   StartupPath=/
+;   StartupPath=/ios
+;   StartupPath=/mywads
+;
+
+StartupPath=/wad
+
+
+
+; AutoLoadIOS=249, 222, 250 etc.  IOS to automatically load on startup.
+; (Default is no auto loading of any IOS)
+;
+
+AutoLoadIOS=249
+
+
+
+; FatDevice= sd, usb, smb   Defines what storage device to use.
+; (Default is sd)
+;
+; "FatDevice="  itself with no parameter will always prompt for device to use
+;
+
+FatDevice=sd
+

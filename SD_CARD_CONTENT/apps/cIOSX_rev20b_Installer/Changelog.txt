@@ -1,0 +1,192 @@
++-----------+
+| CHANGELOG |
++-----------+
+
+
+[ CIOSX rev 20 ]:
+
+- Added support to IOS36, IOS53, IOS55, IOS56, IOS61 and IOS80.
+- Updated IOS37, IOS38 and IOS57 bases.
+- Installer supports GameCube pads.
+- Installer supports custom slots.
+- Installer network code improved.
+- IOS modules timers fixed.
+- MLoad module improved (new calls and fixes).
+- FAT module rewritten (using FatFs).
+- SDHC module improved (buffers and cache).
+- DIP plugin improved.
+- ES plugin added.
+- FFS plugin improved.
+- IOS reload block implemented (only works correctly with DVD titles).
+- Identified titles cannot use custom modules.
+- NAND emulator improved (fixes and usage of new FAT module).
+- MEM2 protection disabled by default.
+- AHBPROT flag set to allow HW access from PPC.
+- Easter egg added.
+- Miscellaneous improvements and fixes.
+
+
+[ CIOSX rev 19 ]:
+
+- Fixed the cover register emulation in DIP plugin.
+- Fixed bug in DIP and FFS plugins (this caused the SDHC module bug).
+- Fixed USB device support in FAT module.
+- Removed support for invalid FAT characters in FAT module.
+- Added support for invalud FAT characters in FFS plugin.
+- Miscellaneous fixes and improvements.
+
+
+[ CIOSX rev 18 ]:
+
+- Added support to IOS37, IOS38, IOS57, IOS60 and IOS70.
+- MLoad module added (not Hermes version).
+- DIP plugin improved (auto-installable plugin).
+- FFS plugin improved (auto-installable plugin).
+- EHCI module improved.
+- FAT module improved.
+- SDHC module improved.
+- ES plugin removed.
+- Patching system improved.
+- DVD+DL bug fixed.
+- Support for invalid FAT characters (replaced with '_').
+- FAT support in DIP plugin.
+- NAND emulation path redirection improved.
+- Added full and partial NAND emulation modes.
+- Added support for IOS logging to a buffer.
+- Added support for IOS logging through USB Gecko.
+- IOS module loading support from PPC.
+
+
+[ CIOS38 rev 17 ]:
+
+- DIP plugin improved (some code has been rewritten).
+- More error 001 bug fixing.
+- DVD+DL bug fixed.
+- FFS plugin fixed.
+
+
+[ CIOS38 rev 16 ]:
+
+- Error 001 bug fixed.
+- NSMB proper fix added.
+
+
+[ CIOS38 rev 15 ]:
+
+- DVD+DL support fixed.
+- DIP plugin improvement (NSMB may work a bit better).
+- ES plugin optimized.
+- FAT module bugs fixed.
+- FFS plugin bugs fixed.
+- EHCI module optimized.
+- Fixed bug in Installer.
+- Miscellaneous changes.
+
+
+[ CIOS38 rev 14 ]:
+
+- Support for games with new error 002.
+- DIP plugin updated (cover commands emulation fixed).
+- ES plugin updated.
+- FFS plugin updated.
+- EHCI module improved.
+- SDHC module improved.
+- FAT module improved.
+- Implemented new anti error 001 system.
+- Anti error 002 system removed.
+- NAND emulation system added (from SD/USB device).
+- Content override system added (from SD/USB device).
+- System Menu support (Disc Channel works again).
+- Installer support for cBoot2.
+- Installer support for all IOS.
+- Some bugs fixed.
+
+
+[ CIOS38 rev 13 ]:
+
+- Read speed improved.
+- EHCI module improved.
+- SDHC module improved.
+- DIP plugin improved.
+- ES plugin updated.
+- Implemented new system anti error 002.
+
+
+[ CIOS38 rev 12 ]:
+
+- Based on IOS 38 v3610.
+- Support for consoles with serial number LU64+
+- Error 001/002 patching system improved.
+- Cover check patch added (thanks to sorg).
+- EHCI module improved (thanks to Hermes).
+- SDHC module improved.
+- DIP plugin improved.
+- ES plugin added.
+- FFS plugin added.
+- Some patches fixed.
+- Misc improvements and fixes.
+
+
+[ CIOS36 rev 10 ]:
+
+- Some modifications in DIP plugin.
+- SDHC module added (thanks to WiiGator for the help).
+
+
+[ CIOS36 rev 09 ]:
+
+- EHCI module made by kwiirk added.
+- Support for USB mode in DIP plugin.
+- Removed NAND permissions check.
+
+
+[ CIOS36 rev 08 ]:
+
+- Custom IOCTL_DI_OFFSET command (for multigame support).
+- Support for custom DIP commands.
+- D0 read command now reads at 6x when using original discs or modchip.
+- Error 001/002 transparent patching system.
+- Fixes and improvements.
+
+
+[ CIOS36 rev 07 ]:
+
+- DIP plugin updated (lots of improvements).
+
+
+[ CIOS36 rev 06 ]:
+
+- Custom DIP module removed.
+- DIP module patched (DIP plugin) to support backups.
+
+
+[ CIOS36 rev 05 ]:
+
+- ES_CloseContent() permission check removed.
+- Custom DIP module v0.2 added.
+
+
+[ CIOS36 rev 04 ]:
+
+- Now the base IOS is IOS36.
+- ES_OpenTitleContent() titleid check removed.
+- ES_ReadContent() permission check removed.
+
+
+[ CIOS37 rev 03 ]:
+
+- ES_AddTicketStart() title version check removed.
+- ES_DeleteTicket() and ES_DeleteTitle() now can delete system titles.
+- ES_SetUID() check removed.
+
+
+[ CIOS37 rev 02 ]:
+
+- Removed copyright code.
+- Changed the way the IOS is patched.
+
+
+[ CIOS37 rev 01 ]:
+
+- DVD_LowUnencryptedRead() limit removed.
+- ES hash check disabled (Trucha bug).
